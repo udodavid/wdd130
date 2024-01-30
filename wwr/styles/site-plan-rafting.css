@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');:root {
-    --primary-color: #XXXXXX ;
-    --secondary-color: #XXXXXX;
-    --accent1-color: #XXXXXX;
-    --accent2-color: #XXXXXX;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');:root {
+    --primary-color: #fe7a36 ;
+    --secondary-color: #3652ad;
+    --accent1-color: #280274;
+    --accent2-color: #e9f6;
   
-    --heading-font: '______', serif;
-    --paragraph-font: '______', serif;
+    --heading-font: 'Roboto', serif;
+    --paragraph-font: 'Roboto', serif;
   
     --nav-background-color: #0e0e0e;
-    --nav-link-color: #XXXXXX;
-    --nav-hover-link-color: #XXXXXX;
-    --nav-hover-background-color: #XXXXXX;
+    --nav-link-color: #1328e4;
+    --nav-hover-link-color: #AF2655;
+    --nav-hover-background-color: #F3F3F3;
   }
   body {
-    f______: var(--paragraph-font);
-    m______: ______;
-    p______: ______;
+    font-family: var(--paragraph-font);
+    margin: 10px;
+    padding: 5px;
   }
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
