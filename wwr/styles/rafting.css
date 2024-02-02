@@ -19,6 +19,7 @@ header img {
     left: 0;
     right: 0;
     align-items: center;
+}
 body {
     max-width: 840px;
     margin: 0 auto;
