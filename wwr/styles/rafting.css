@@ -12,6 +12,13 @@
     --nav-hover-link-color: #AF2655;
     --nav-hover-background-color: #F3F3F3;
   }
+header img {
+    width: 20px;
+    display: flex;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    align-items: center;
 body {
     max-width: 840px;
     margin: 0 auto;
