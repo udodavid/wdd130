@@ -80,3 +80,40 @@ footer {
 .indent {
     padding-left: 2rem;
 }
+header, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+nav {
+    background-color: steelblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    display: flex;
+    color: #fff; /% shorthand for white %/
+}
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+.grid {
+    display: grid;
+    align-items: center;
+}
+main{
+    grid-column: 2;
+    margin: 1rem;
+}
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1;
+    grid-row: 1;
+}
