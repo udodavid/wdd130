@@ -13,12 +13,14 @@
     </head>
     <body>
         <header>
-            <img src="images/logo.png" alt="Logo">
+            <img src="images/rafting-logo.jpg" alt="Logo">
             <nav>
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="trips.html">Trips</a>
-                <a href="contact.html">Contact</a>
+                <ul class="navigation">
+                    <li><a href="https://udodavid.github.io/wdd130">Home</a></li>
+                    <li><a href="https://udodavid.github.io/wdd130/wwr/about">About</a></li>
+                    <li><a href="https://udodavid.github.io/wdd130/wwr/about">Trips</a></li>
+                    <li><a href="https://udodavid.github.io/wdd130/wwr/contact">Contact</a></li>
+                </ul>
             </nav>
         </header>
 
@@ -31,32 +33,65 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rem, impedit consequuntur fugiat nemo suscipit accusantium sed ratione reprehenderit doloremque! Ipsum fugiat expedita magnam eos tenetur tempore molestiae doloribus distinctio!</p>
                 </article>
             </div>
-            <section class="second">
-                <img src="images/rafting65_600.jpg" alt="">
-                <h2>History</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, laboriosam animi. Vitae rem molestias aliquam et esse officiis hic consequuntur nulla laudantium quas? Odio, doloremque qui vero rerum asperiores enim?</p>
+            <section class="flexbox-container">
+                <div class="flexbox-item flexbox-item-1">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, laboriosam animi. Vitae rem molestias aliquam et esse officiis hic consequuntur nulla laudantium quas? Odio, doloremque qui vero rerum asperiores enim?</p>                        
+                </div>
+                <div class="flexbox-item flexbox-item-2">
+                    <h2>History</h2>
+                </div>
+                <div class="flexbox-item flexbox-item-3">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, laboriosam animi. Vitae rem molestias aliquam et esse officiis hic consequuntur nulla laudantium quas? Odio, doloremque qui vero rerum asperiores enim?</p>                        
+                </div>
             </section>
-            <section class="grid">
+            <div class="Adventure">
                 <h2>Adventure</h2>
-                <img src="images/rafting8_600.jpg" alt="Canoeing">
-                <img src="images/rafting32_600.jpg" alt="Splash">
-                <img src="images/rafting47_600.jpg" alt="Fun in Water">
-                <img src="images/rafting42_600.jpg" alt="Divng Through">
-                <img src="images/rafting53_600.jpg" alt="Boarding">
-            </section>
-        </main>
-        <footer>
-            <p>Lorem ipsum dolor sit amet consectetur</p>
-           <nav class="sociallinks">
-            <a href="www.facebook.com">
-                <img src="images/facebook.png" alt="facebook">
-            </a>
-            <a href="www.x.com">
-                <img src="images/twitter.png" alt="Twitter">
-            </a><a href="www.instagram.com">
-                <img src="images/instagram.png" alt="Instagram">
-            </a>
-        </nav>
-        </footer>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <figure>
+                            <img src="images/rafting32_600.jpg" alt="Boat Cruise">
+                            <figcaption>Boat Cruise</figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid-item">
+                        <figure>
+                            <img src="images/rafting8_600.jpg" alt="Canoeing">
+                            <figcaption>Canoeing</figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid-item">
+                        <figure>
+                            <img src="images/rafting47_600.jpg" alt="Fun in Water">
+                            <figcaption>Fun in Water</figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid-item">
+                        <figure>
+                            <img src="images/rafting42_600.jpg" alt="Divng Through">
+                            <figcaption>Divng Through</figcaption>
+                        </figure>
+                    </div>
+                    <div class="grid-item">
+                        <figure>
+                            <img src="images/rafting53_600.jpg" alt="Boarding">
+                            <figcaption>Boarding</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </main>        
     </body>
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur</p>
+       <nav class="sociallinks">
+        <a href="www.facebook.com">
+            <img src="images/facebook.png" alt="facebook">
+        </a>
+        <a href="www.x.com">
+            <img src="images/twitter.png" alt="Twitter">
+        </a><a href="www.instagram.com">
+            <img src="images/instagram.png" alt="Instagram">
+        </a>
+    </nav>
+    </footer>
 </html>
