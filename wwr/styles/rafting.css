@@ -12,6 +12,7 @@
     --nav-hover-link-color: #AF2655;
     --nav-hover-background-color: #F3F3F3;
   }
+
 header {
     margin: 1rem auto;
     display: grid;
@@ -26,6 +27,7 @@ header img {
     width: 64px;
     height: auto;
 }
+
 h1 {
     font-size: 2rem;
     font-family: Acme, Arial, sans-serif;
