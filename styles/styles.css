@@ -97,8 +97,9 @@ nav a {
     font-size: 1.2rem;
     font-weight: 700;
     display: flex;
-    color: #fff; /% shorthand for white %/
+    color: #fff;
 }
+
 header, .grid, footer {
     max-width: 840px;
     margin: 0 auto;
