@@ -1,49 +1,48 @@
-* {
-    margin: 0;
-    padding: 0;
+.trips .row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.trips .col {
+    flex-basis: 50%;
+}
+
+.trips h1 {
+    color: var(--primary-color);
+    font-size: 100px;
+    text-align: left;
+    margin-bottom: 1px;
+}
+
+.trips p {
+    color: var(--primary-color);
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.trips button {
+    width: 180px;
+    color: #fff;
+    font-size: 12px;
+    padding: 12px 0;
+    background: var(--primary-color);
+    outline: none;
+    border: 0;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.trips .card {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
     box-sizing: border-box;
-}
-
-
-.contact {
-    position: relative;
-    min-height: 100px;
-    padding: 50px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: url(bg.jpg);
+    cursor: pointer;
+    background-position: center;
     background-size: cover;
-}
-
-.contact .content {
-    max-width: 800px;
-    text-align: center;
-}
-
-.contact .content h2 {
-    font-size: 36px;
-    font-weight: 500;
-    color: var(--nav-background-color);
-}
-
-.contact .content p {
-    font-weight: 500;
-    color: var(--nav-background-color);
-}
-
-.container {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    gap: 40px;
-}
-
-.container .contactInfo {
-    flex: 1;
-    
 }
 
