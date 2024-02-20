@@ -664,6 +664,11 @@ footer{
     font-weight: 600;
 }
 
+.trips .table-head p {
+    color: #fff;
+    font-size: 14px;
+}
+
 .trips .table-head .table-cell {
     border-right: none;
 }
@@ -674,7 +679,6 @@ footer{
 
 .first-cell {
     text-align: left;
-    padding-left: 10x;
 }
 
 .table-cell button {
